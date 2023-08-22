@@ -139,7 +139,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener{
         move();// this will update the snakeHead's x and y
         repaint();// calls draw() over and over again
         if(gameOver){
-            gameLoop.stop();
+            gameLoop.stop();//stop the timer
         }
     }
 
